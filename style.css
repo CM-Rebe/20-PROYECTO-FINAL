@@ -216,6 +216,7 @@ nav.main-nav li a.active {
     font-size: 32px;
     font-weight: 800;
     margin: 0 0 32px 0;
+    text-align: center;
     color: var(--text-color);
     background-color: var(--accent-color);
 }
@@ -307,8 +308,16 @@ nav.main-nav li a.active {
 }
 
 /*mas vendido*/
+.masVendido-titles {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0 0 32px 0;
+    text-align: center;
+    color: var(--text-color);
+    background-color: var(--accent-color);
+}
+
 #masVendido {
-    margin-top: 140px; 
     position: relative;
     min-height: 420px;
     display: flex;
