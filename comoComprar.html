@@ -8,6 +8,56 @@
 
     <link rel="icon" href="multimedia/LogoLibelulaPapeleria.png">
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Estilos agregados solo para la sección central de Cómo Comprar */
+        .comocomprar-main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 160px 20px 40px 20px;
+            font-family: Arial, sans-serif;
+        }
+        .comocomprar-main h1 {
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', serif;
+            margin-bottom: 40px;
+        }
+        .paso {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            margin-bottom: 35px;
+            border-left: 4px solid #8bc34a;
+            padding-left: 20px;
+        }
+        .paso .numero {
+            font-size: 28px;
+            font-weight: bold;
+            color: #8bc34a;
+            min-width: 40px;
+            font-family: Georgia, serif;
+        }
+        .paso h2 {
+            margin: 0 0 8px 0;
+            font-size: 20px;
+            font-family: Georgia, serif;
+        }
+        .paso p {
+            margin: 0;
+            font-size: 15px;
+            line-height: 1.5;
+            color: #444;
+        }
+        .aviso {
+            background: #f3f9ec;
+            border: 1px solid #8bc34a;
+            border-radius: 4px;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 14px;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
@@ -29,7 +79,45 @@
         </nav>
     </header>
 
-    <br><br><br>
+    <main class="comocomprar-main">
+        <h1>CÓMO COMPRAR</h1>
+
+        <div class="paso">
+            <div class="numero">1</div>
+            <div>
+                <h2>Elegí tu producto</h2>
+                <p>Recorré nuestro catálogo de agendas, stickers, vinilos, marcapáginas y kits educativos y elegí el que más te guste.</p>
+            </div>
+        </div>
+
+        <div class="paso">
+            <div class="numero">2</div>
+            <div>
+                <h2>Hacé tu consulta</h2>
+                <p>Escribinos por WhatsApp o Instagram indicando el producto que querés y las cantidades. Te confirmamos stock y precio.</p>
+            </div>
+        </div>
+
+        <div class="paso">
+            <div class="numero">3</div>
+            <div>
+                <h2>Coordiná el pago</h2>
+                <p>Aceptamos transferencia y efectivo. Te enviamos los datos para realizar el pago una vez confirmado el pedido.</p>
+            </div>
+        </div>
+
+        <div class="paso">
+            <div class="numero">4</div>
+            <div>
+                <h2>Recibí tu pedido</h2>
+                <p>Coordinamos el envío a domicilio en Mar del Plata o el retiro, según lo que prefieras.</p>
+            </div>
+        </div>
+
+        <div class="aviso">
+            ¿Tenés dudas? Escribinos, ¡estamos para ayudarte!
+        </div>
+    </main>
 
     <section id="footer">
         <div class="footer-content">
